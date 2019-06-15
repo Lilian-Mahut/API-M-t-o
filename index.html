@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="style.css" rel="stylesheet" >
+  <title>MétéActu</title>
+</head>
+<body>
+
+  <header> <!--WEATHER-->
+    <div id="containerWeather">
+
+      <div id="block1">
+        <form id="champ">
+          Quel temps fait-il à 
+          <input type="text" id="lieu" size="12">
+          <input type="button" onclick="buttonClickGET()" value="?">
+        </form>
+      </div>
+
+      <div id="block2">
+        <div id="location">
+        </div>
+        <div id="jour">
+        </div>
+        <div id="hours">
+        </div>
+      </div>
+
+      <div id="block3">
+        <div id="imageWeather">
+          <img id="weatherImage" src="./media/clearday.png">
+        </div>
+        <div>
+          <div id="degres">
+          </div>
+          <div id="temps">
+          </div>
+        </div>
+      </div>
+
+      <div id="block4">
+        <div id="precipitation">
+        </div>
+        <div id="humidite">
+        </div>
+        <div id="vent">
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main>  <!--NEWS-->
+    <div id="containerNews">
+
+    </div>
+  </main>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="./app.js"></script>
+  <script src="./news.js"></script>
+</body>
+</html>

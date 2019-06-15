@@ -1,0 +1,47 @@
+body  {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+#containerWeather  {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  background: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  border-radius: 0 0 25px 25px;
+  height: 20vh;
+  color: white;
+  padding: 2vh 1vw;
+  #block1 {
+    font-size: 1.5rem;
+  }
+  #block2 {
+    #location {
+      font-size: 2.4rem;
+      text-decoration: underline;
+    }
+    #jour, #temps {
+      color: rgb(228, 226, 226);
+    }
+  }
+  #block3 {
+    display: flex;
+    #imageWeather {
+      margin-right: 1.5vw;
+      height: 8vh;
+    }
+    #degres {
+      font-size: 1.7rem;
+    }
+    #echelle  {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+// BLOCKS NEWS
+#containerNews  {
+  background-color: rgb(243, 242, 242);
+  width: 100%;
+  height: 78vh;
+}
